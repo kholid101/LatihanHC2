@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        li {
+            margin-top: 10px;
+        }
+        /* Selector Before */
+        li::before {
+            content: "Ini Buah : ";
+            background: darkcyan;
+            padding: 5px;
+            color: white;
+        }
+        /* Selector After */
+        /* li::after {
+            content: "Segar Sekali !";
+            background: green;
+            padding: 5px;
+            color: white;
+        } */
+    </style>
+    
+</head>
+<body>
+    <ol>
+        <li>Mangga</li>
+        <li>Apel</li>
+        <li>Jeruk</li>
+        <li>Semangka</li>
+        <li>Anggur</li>
+    </ol>
+</body>
+</html>
